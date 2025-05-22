@@ -1,0 +1,13 @@
+background: linear-gradient(-45deg, #e7d2cc, #b9b7bd, #eeede7); 
+background-size: 400% 400%;
+animation: gradientBG 18s ease infinite;
+padding: 80px 16px; /* Give the section some space */
+text-align: center;
+color:  #868b8e
+}
+
+@keyframes gradientBG {
+0% { background-position: 0% 50%; }
+50% { background-position: 100% 50%; }
+100% { background-position: 0% 50%; }
+}

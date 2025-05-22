@@ -1,0 +1,88 @@
+
+body {
+    font-family: 'Poppins', sans-serif;
+   
+    color: #1D2A34
+}
+
+h1, h2, h3 {
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #1D2A34
+}
+
+#hero {
+    background-color: #b0e0e6;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='152' height='152' viewBox='0 0 152 152'%3E%3Cg fill-rule='evenodd'%3E%3Cg id='temple' fill='%23b0b7e6' fill-opacity='0.58'%3E%3Cpath d='M152 150v2H0v-2h28v-8H8v-20H0v-2h8V80h42v20h20v42H30v8h90v-8H80v-42h20V80h42v40h8V30h-8v40h-42V50H80V8h40V0h2v8h20v20h8V0h2v150zm-2 0v-28h-8v20h-20v8h28zM82 30v18h18V30H82zm20 18h20v20h18V30h-20V10H82v18h20v20zm0 2v18h18V50h-18zm20-22h18V10h-18v18zm-54 92v-18H50v18h18zm-20-18H28V82H10v38h20v20h38v-18H48v-20zm0-2V82H30v18h18zm-20 22H10v18h18v-18zm54 0v18h38v-20h20V82h-18v20h-20v20H82zm18-20H82v18h18v-18zm2-2h18V82h-18v18zm20 40v-18h18v18h-18zM30 0h-2v8H8v20H0v2h8v40h42V50h20V8H30V0zm20 48h18V30H50v18zm18-20H48v20H28v20H10V30h20V10h38v18zM30 50h18v18H30V50zm-2-40H10v18h18V10z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+    animation: gradientMove 30s ease infinite;
+}
+
+
+@keyframes gradientMove {
+  0% {background-position: 0% 50%;}
+  50% {background-position: 100% 50%;}
+  100% {background-position: 0% 50%;}
+}
+
+
+.bio-photo {
+    border-radius: 50%;
+}
+
+.my-custom-btn {
+    background-color: #b0b7e6;
+    color: white;
+    border-radius: 8px;
+}
+
+
+#cv {
+    background-color: white;
+    color:#1D2A34;
+}
+
+#hero,
+#cv {
+    padding: 60px 20px;
+}
+
+.my-custom-btn {
+    background-color: #b0b7e6;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 8px 20px;
+    transition: all 0.3s ease;
+}
+
+.my-custom-btn:hover {
+    background-color: #b0b7e6;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+#cv h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+#cv li {
+    margin-bottom: 0.75rem;
+    line-height: 1.6;
+}
+
+#about-me {
+    background-color: #b0e0e6;
+    background-image: url("data:image/svg+xml,%3Csvg width='42' height='42' viewBox='0 0 42 44' xmlns='http://www.w3.org/2000/svg'%3E%3Cg id='Page-1' fill='none' fill-rule='evenodd'%3E%3Cg id='brick-wall' fill='%23b0b7e6' fill-opacity='0.58'%3E%3Cpath d='M0 0h42v44H0V0zm1 1h40v20H1V1zM0 23h20v20H0V23zm22 0h20v20H22V23z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+    min-height: 100vh
+}
+
+#portfolio {
+background-color: #b0e0e6;
+background-image: url("data:image/svg+xml,%3Csvg width='80' height='80' viewBox='0 0 80 80' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23b0b7e6' fill-opacity='0.58'%3E%3Cpath d='M50 50c0-5.523 4.477-10 10-10s10 4.477 10 10-4.477 10-10 10c0 5.523-4.477 10-10 10s-10-4.477-10-10 4.477-10 10-10zM10 10c0-5.523 4.477-10 10-10s10 4.477 10 10-4.477 10-10 10c0 5.523-4.477 10-10 10S0 25.523 0 20s4.477-10 10-10zm10 8c4.418 0 8-3.582 8-8s-3.582-8-8-8-8 3.582-8 8 3.582 8 8 8zm40 40c4.418 0 8-3.582 8-8s-3.582-8-8-8-8 3.582-8 8 3.582 8 8 8z' /%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+min-height: 100vh
+}
+
+#contact-me {
+    background-color: #b0e0e6;
+}
